@@ -1,8 +1,8 @@
-# 🚗 Crystal Drive — Gestion de location de véhicules
+#  Crystal Drive — Gestion de location de véhicules
 
 Application de bureau **Java Swing** pour gérer une agence de location de véhicules, connectée à une base **MySQL**.
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 - **Authentification** par e-mail / mot de passe, avec redirection selon le rôle (administrateur, gestionnaire, client) et création de compte.
 - **Gestion des véhicules** : ajout, modification, suppression, consultation.
@@ -11,7 +11,7 @@ Application de bureau **Java Swing** pour gérer une agence de location de véhi
 - **Retour des véhicules**.
 - **Reporting** : tableau de bord et statistiques.
 
-## 🛠️ Technologies
+##  Technologies
 
 | | |
 |---|---|
@@ -20,21 +20,19 @@ Application de bureau **Java Swing** pour gérer une agence de location de véhi
 | Base de données | MySQL (JDBC) |
 | Build | Maven |
 
-## 🚀 Lancer le projet
+##  Lancer le projet
 
 1. **Créer la base de données** MySQL nommée `location_vehicules` (tables : `utilisateur`, `client`, `vehicule`, `reservation`, `retour`, `paiement`).
 2. **Vérifier la connexion** : par défaut `localhost:3306`, utilisateur `root`, mot de passe vide (voir `DatabaseConnection.java`).
 3. Ouvrir le dossier dans **IntelliJ IDEA** (ou tout IDE compatible Maven) et laisser Maven télécharger le pilote MySQL.
 4. Lancer la classe **`dashboar.GestationLitterateursGUI`** (page de connexion).
 
-## 📁 Structure
+##  Structure
 
 ```
-src/main/
+/src/main/
 ├── java/dashboar/     # Interfaces Swing, DAO, modèles
 └── resources/images/  # Logos, fonds et icônes
 ```
 
-## 👩‍💻 Auteure
 
-**Sellami Siham** — Master Génie Logiciel, UMBB
