@@ -31,7 +31,7 @@ A **Java Swing** desktop application for managing a vehicle rental agency, backe
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/crystaldrive.git
+   git clone (https://github.com/Siamsell/Crystal-Drive-Vehicle-Rental-Management.git)
    cd crystaldrive
    ```
 
